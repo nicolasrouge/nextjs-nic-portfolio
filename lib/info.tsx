@@ -8,7 +8,7 @@ export const travelpic = travel;
 export const about = () => {
   return (
     <>
-      Hi there! 👋, I'm a passionate software engineer with over 4 years of experience in the United Kingdom and France.
+      Hi there! 👋, I'm a passionate Full Stack Developer with over 4 years international experience.
       <br />
       ➡️ My goal is to deliver efficient, secure, and agile solutions while emphasizing continuous learning and effective communication.
     </>
@@ -17,10 +17,10 @@ export const about = () => {
 export const bio = () => {
   return (
     <>
-      At the moment, I'm working as a Full Stack Developer at <a href="#"><u>Cox Automotive🚗⚡</u></a>, where I'm tackling the challenge of revamping a vehicle delivery platform.
+      Currently working at <a href="#"><u>Cox Automotive🚗⚡</u></a>, where I'm tackling the challenge of revamping a vehicle delivery platform.
       <br />
       <br /> 
-      Before joining Cox, I was at MatrixIQ, UK, contributing to a vehicle fleet management platform and developing a custom app from scratch <a href="#"><u>Driive Academy👩🏻‍🎓</u></a>, now used by thousands of users 🌟. 
+      Before joining Cox, I was at MatrixIQ, UK, contributing to a vehicle fleet management platform and developing an app from scratch <a href="#"><u>Driive Academy👩🏻‍🎓</u></a>, now used by thousands of users 🌟. 
       <br />
       <br />
       Prior to that, I honed my skills across various sectors, including healthcare, banking services.
