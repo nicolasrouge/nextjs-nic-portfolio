@@ -40,7 +40,11 @@ export default async function HomePage() {
           priority
         />
         <div className="mt-8 md:mt-0 ml-0 md:ml-6 space-y-2 text-neutral-500 dark:text-neutral-400">
-          <a
+          
+          <p className="flex items-center gap-2">➡️ Clean Architecture & Quality code</p>
+          <p className="flex items-center gap-2">➡️ Team player</p>
+          <p className="flex items-center gap-2">➡️ Passionate about new technologies</p>
+          {/* <a
             rel="noopener noreferrer"
             target="_blank"
             href="https://twitter.com/leeerob"
@@ -61,8 +65,8 @@ export default async function HomePage() {
           <Link href="/blog" className="flex items-center">
             <ViewsIcon />
             {`${views.toLocaleString()} blog views all time`}
-          </Link>
-        </div>
+          </Link>*/}
+        </div> 
       </div>
       <p className="my-5 max-w-[600px] text-neutral-800 dark:text-neutral-200">
         {bio()}
