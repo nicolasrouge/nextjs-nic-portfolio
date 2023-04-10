@@ -41,31 +41,30 @@ export default async function HomePage() {
         />
         <div className="mt-8 md:mt-0 ml-0 md:ml-6 space-y-2 text-neutral-500 dark:text-neutral-400">
           
-          <p className="flex items-center gap-2">➡️ Clean Architecture & Quality code</p>
-          <p className="flex items-center gap-2">➡️ Team player</p>
-          <p className="flex items-center gap-2">➡️ Passionate about new technologies</p>
-          {/* <a
+          <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://twitter.com/leeerob"
+            href="https://twitter.com/nick_co_wrld"
             className="flex items-center gap-2"
           >
             <TwitterIcon />
-            {`${tweetCount.toLocaleString()} tweets all time`}
+            My Twitter
+            {/* {`${tweetCount.toLocaleString()} tweets all time`} */}
           </a>
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://github.com/leerob"
+            href="https://github.com/nicolasrouge"
             className="flex items-center gap-2"
           >
             <GitHubIcon />
-            {`${starCount.toLocaleString()} stars on this repo`}
+            My GitHub
+            {/* {`${starCount.toLocaleString()} stars on this repo`} */}
           </a>
           <Link href="/blog" className="flex items-center">
-            <ViewsIcon />
-            {`${views.toLocaleString()} blog views all time`}
-          </Link>*/}
+            <ViewsIcon /> My Blog
+            {/* {`${views.toLocaleString()} blog views all time`} */}
+          </Link>
         </div> 
       </div>
       <p className="my-5 max-w-[600px] text-neutral-800 dark:text-neutral-200">
