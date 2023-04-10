@@ -44,7 +44,7 @@ function Logo() {
           initial={{ opacity: 0, pathLength: 0 }}
           animate={{ opacity: 1, pathLength: 1 }}
           transition={{ duration: 0.5, type: 'spring', stiffness: 50 }}
-          d="M30 0L200 316"
+          d="M30 0L200 299"
           stroke="currentColor"
           strokeWidth={78}
         />
