@@ -49,19 +49,19 @@ export const bio = () => {
 
       <br />
       <br />
-      Currently working at <a href="#" style={{ color: textColor }}><u>Cox Automotive🚗⚡🇬🇧 🇺🇸 </u></a>, where I'm tackling the challenge of revamping a <a style={{ color: textColor }}>vehicle delivery platform</a> and <a style={{ color: textColor }}>leading</a> the frontend project.
+      Currently working at <a href="https://www.coxautoinc.com/" style={{ color: textColor }}><u>Cox Automotive🚗⚡🇬🇧 🇺🇸 </u></a>, where I'm tackling the challenge of revamping a <a style={{ color: textColor }}>vehicle delivery platform</a> and <a style={{ color: textColor }}>leading</a> the frontend project.
       <br />
       <br />
-     Before Cox, I contributed to a <a style={{ color: textColor }}>Fleet management platform</a> and developped an app from scratch <a href="#" style={{ color: textColor }}><u>Driive Academy👩🏻‍🎓</u></a>, used by thousands of users after release day🌟.
+     Before Cox, I contributed to a <a style={{ color: textColor }}>Fleet management platform</a> and developped an app from scratch <a href="https://academy.driive.co.uk/" style={{ color: textColor }}><u>Driive Academy👩🏻‍🎓</u></a>, used by thousands of users after release day🌟.
       Prior to that, I honed my skills across various sectors, including <a style={{ color: textColor }}>Automotive</a>, <a style={{ color: textColor }}>Healthcare</a> and <a style={{ color: textColor }}>Banking</a> services. ➡️ <a href="#" style={{ color: textColor }}><u>Linkedin</u></a>.
       <br />
       <br />
 
       In my spare time, I love working on mini projects to sharpen my skills and stay engaged with the tech community:
       <br />
-      🔹<a href="#" style={{ color: textColor }}><u>🤖 Cox Automotive Hackathon (AI)</u></a>
+      🔹<a href="https://github.com/dtsmith94/cox-auto-hackathon-2022" style={{ color: textColor }}><u>🤖 Cox Automotive Hackathon (AI)</u></a>
       <br />
-      🔹<a href="#" style={{ color: textColor }}><u>💹 UK IT job market in one glance </u></a>
+      🔹<a href="https://gatsbyitskills.gatsbyjs.io/" style={{ color: textColor }}><u>💹 UK IT job market in one glance </u></a>
       <br />
       🔹<a href="#" style={{ color: textColor }}><u>🌎 English Speakers around the world</u></a>
       <br />
