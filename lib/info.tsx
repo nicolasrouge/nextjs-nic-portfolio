@@ -28,20 +28,19 @@ export const Highlight = ({ children, color }) => (
 export const about = () => {
   return (
     <>
-      Hi there! 👋, I'm a passionate <a style={{ color: textColor }}>Full Stack Developer</a> with <b style={{ color: textColor }}>4+</b> years of international experience.
-      <br />
+      Hi there! 👋, I'm a <a style={{ color: textColor }}>Full Stack Developer</a> with <b style={{ color: textColor }}>4+</b> years experience.
       My goal is to deliver <a style={{ color: textColor }}>efficient</a>, <a style={{ color: textColor }}>secure</a>, and <a style={{ color: textColor }}>agile</a> solutions.
       <br />
-      Expert in <a style={{ color: textColor }}>.NET</a> and <a style={{ color: textColor }}>React</a>, Working in <a style={{ color: textColor }}>Cloud</a> environements, I'm always excited to explore new tools and technologies, from <a style={{ color: textColor }}>DevOps</a> to <a style={{ color: textColor }}>AI</a>! 🛠️
+      Expert in <a style={{ color: textColor }}>.NET</a> and <a style={{ color: textColor }}>React</a>, Working in <a style={{ color: textColor }}>Cloud</a> environements - Always excited to explore new tools and technologies, from <a style={{ color: textColor }}>DevOps</a> to <a style={{ color: textColor }}>AI</a>! 🛠️
     </>
   );
 };
 export const bio = () => {
   return (
     <>
-      <Highlight color={textColor}><b>Clean Architecture 🧹</b></Highlight><Highlight color={textColor}><b>Microservices 🔍</b></Highlight>
+      <Highlight color={textColor}><b>Clean Architecture 🧹</b></Highlight><Highlight color={textColor}><b>Microservices 🔍</b></Highlight><Highlight color={textColor}>API</Highlight><Highlight color={textColor}>MVC</Highlight>
       <br />
-      <Highlight color={textColor}><b>.NET 💻</b></Highlight><Highlight color={textColor}><b>.NET Core 6 / 7</b></Highlight><Highlight color={textColor}><b>C#</b></Highlight><Highlight color={textColor}>Unit Tests ✅</Highlight><Highlight color={textColor}>DI 💉</Highlight><Highlight color={textColor}>API 🌐</Highlight><Highlight color={textColor}>MVC 🌐</Highlight>
+      <Highlight color={textColor}><b>.NET 💻</b></Highlight><Highlight color={textColor}><b>.NET Core 6 / 7</b></Highlight><Highlight color={textColor}><b>C#</b></Highlight><Highlight color={textColor}>Unit Tests ✅</Highlight><Highlight color={textColor}>DI </Highlight>
       <br />
       <Highlight color={textColor}><b>ReactJs ⚛️</b></Highlight><Highlight color={textColor}><b>TypeScript 🦕</b></Highlight><Highlight color={textColor}>Redux 🔁</Highlight><Highlight color={textColor}>NextJs 🔜</Highlight><Highlight color={textColor}>Tailwind 🎨</Highlight><Highlight color={textColor}>StyledCpts 💅</Highlight><Highlight color={textColor}>JavaScript</Highlight>
       <br />
@@ -49,9 +48,9 @@ export const bio = () => {
 
       <br />
       <br />
-      Currently working at <a href="https://www.coxautoinc.com/" style={{ color: textColor }}><u>Cox Automotive🚗⚡🇬🇧 🇺🇸 </u></a>, where I'm currently leading the transformation of a vehicle delivery platform's frontend.
+      Currently working at <a href="https://www.coxautoinc.com/" style={{ color: textColor }}><u>Cox Automotive🚗🇬🇧 🇺🇸 </u></a> where I'm currently <a style={{ color: textColor }}>leading the transformation</a> of a vehicle delivery platform's frontend.
       <br />
-      Prior to this, I worked on some game-changing Fleet management platform features and an app from scratch which amassed 1000+ users on their debut and have consistently thrived since. 
+      Prior to this, I worked on some game-changing Fleet management platform features and created an app <a style={{ color: textColor }}>from scratch</a> which amassed 1000+ users on their debut and have consistently thrived since. 
       My extensive experience traverses various industries, 
       including <a style={{ color: textColor }}>Automotive</a>, <a style={{ color: textColor }}>Healthcare</a> and <a style={{ color: textColor }}>Banking</a> services., positioning me as a versatile and innovative professional.
       <br />
