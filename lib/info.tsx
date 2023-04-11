@@ -63,13 +63,13 @@ export const bio = () => {
       <br />
       🔹<a href="https://gatsbyitskills.gatsbyjs.io/" style={{ color: textColor }}><u>💹 UK IT job market in one glance </u></a>
       <br />
-      🔹<a href="#" style={{ color: textColor }}><u>🌎 English Speakers around the world</u></a>
+      🔹<a href="#" style={{ color: textColor }}>🌎 English Speakers around the world</a>
       <br />
-      🔹<a href="#" style={{ color: textColor }}><u>☁️ Serverless platform based</u></a>
+      🔹<a href="#" style={{ color: textColor }}>☁️ Serverless platform based</a>
       <br />
-      🔹<a href="#" style={{ color: textColor }}><u>.NET 6 APIs</u></a>
+      🔹<a href="#" style={{ color: textColor }}>.NET 6 APIs</a>
       <br />
-      🔹<a href="#" style={{ color: textColor }}><u>React projects</u></a>
+      🔹<a href="#" style={{ color: textColor }}>React projects</a>
 
       <br />
       <br />
