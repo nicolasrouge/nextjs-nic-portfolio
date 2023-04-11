@@ -28,7 +28,7 @@ export const Highlight = ({ children, color }) => (
 export const about = () => {
   return (
     <>
-      Hi there! 👋, I'm a passionate <a style={{ color: textColor }}>Full Stack Developer</a> with <b style={{ color: textColor }}>4+</b> years international experience.
+      Hi there! 👋, I'm a passionate <a style={{ color: textColor }}>Full Stack Developer</a> with <b style={{ color: textColor }}>4+</b> years of international experience.
       <br />
       My goal is to deliver <a style={{ color: textColor }}>efficient</a>, <a style={{ color: textColor }}>secure</a>, and <a style={{ color: textColor }}>agile</a> solutions.
       <br />
@@ -49,11 +49,11 @@ export const bio = () => {
 
       <br />
       <br />
-      Currently working at <a href="https://www.coxautoinc.com/" style={{ color: textColor }}><u>Cox Automotive🚗⚡🇬🇧 🇺🇸 </u></a>, where I'm tackling the challenge of revamping a <a style={{ color: textColor }}>vehicle delivery platform</a> and <a style={{ color: textColor }}>leading</a> the frontend project.
+      Currently working at <a href="https://www.coxautoinc.com/" style={{ color: textColor }}><u>Cox Automotive🚗⚡🇬🇧 🇺🇸 </u></a>, where I'm currently leading the transformation of a vehicle delivery platform's frontend.
       <br />
-      <br />
-     Before Cox, I contributed to a <a style={{ color: textColor }}>Fleet management platform</a> and developped an app from scratch <a href="https://academy.driive.co.uk/" style={{ color: textColor }}><u>Driive Academy👩🏻‍🎓</u></a>, used by thousands of users after release day🌟.
-      Prior to that, I honed my skills across various sectors, including <a style={{ color: textColor }}>Automotive</a>, <a style={{ color: textColor }}>Healthcare</a> and <a style={{ color: textColor }}>Banking</a> services. ➡️ <a href="#" style={{ color: textColor }}><u>Linkedin</u></a>.
+      Prior to this, I worked on some game-changing Fleet management platform features and an app from scratch which amassed 1000+ users on their debut and have consistently thrived since. 
+      My extensive experience traverses various industries, 
+      including <a style={{ color: textColor }}>Automotive</a>, <a style={{ color: textColor }}>Healthcare</a> and <a style={{ color: textColor }}>Banking</a> services., positioning me as a versatile and innovative professional.
       <br />
       <br />
 
