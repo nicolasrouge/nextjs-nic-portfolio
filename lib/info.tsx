@@ -39,20 +39,20 @@ export const about = () => {
 export const bio = () => {
   return (
     <>
-      <Highlight color={textColor}><b>Clean Architecture 🧹</b></Highlight>
+      <Highlight color={textColor}><b>Clean Architecture 🧹</b></Highlight><Highlight color={textColor}><b>Microservices 🔍</b></Highlight>
       <br />
-      <Highlight color={textColor}><b>.NET 💻</b></Highlight><Highlight color={textColor}>.NET Core 6 / 7</Highlight><Highlight color={textColor}>C#</Highlight><Highlight color={textColor}>Microservices 🔍</Highlight><Highlight color={textColor}>Unit Tests ✅</Highlight><Highlight color={textColor}>DI 💉</Highlight><Highlight color={textColor}>API 🌐</Highlight><Highlight color={textColor}>MVC 🌐</Highlight>
+      <Highlight color={textColor}><b>.NET 💻</b></Highlight><Highlight color={textColor}><b>.NET Core 6 / 7</b></Highlight><Highlight color={textColor}><b>C#</b></Highlight><Highlight color={textColor}>Unit Tests ✅</Highlight><Highlight color={textColor}>DI 💉</Highlight><Highlight color={textColor}>API 🌐</Highlight><Highlight color={textColor}>MVC 🌐</Highlight>
       <br />
-      <Highlight color={textColor}><b>ReactJs ⚛️</b></Highlight><Highlight color={textColor}>Redux 🔁</Highlight><Highlight color={textColor}>TypeScript 🦕</Highlight><Highlight color={textColor}>NextJs 🔜</Highlight><Highlight color={textColor}>Tailwind 🎨</Highlight><Highlight color={textColor}>StyledCpts 💅</Highlight><Highlight color={textColor}>JavaScript</Highlight>
+      <Highlight color={textColor}><b>ReactJs ⚛️</b></Highlight><Highlight color={textColor}><b>TypeScript 🦕</b></Highlight><Highlight color={textColor}>Redux 🔁</Highlight><Highlight color={textColor}>NextJs 🔜</Highlight><Highlight color={textColor}>Tailwind 🎨</Highlight><Highlight color={textColor}>StyledCpts 💅</Highlight><Highlight color={textColor}>JavaScript</Highlight>
       <br />
-      <Highlight color={textColor}>SQL</Highlight><Highlight color={textColor}>AGILE 🏃‍♂️</Highlight><Highlight color={textColor}>Git 🌳</Highlight><Highlight color={textColor}>Azure ☁️</Highlight><Highlight color={textColor}>AWS ☁️</Highlight>
+      <Highlight color={textColor}><b>Azure ☁️</b></Highlight><Highlight color={textColor}><b>AWS ☁️</b></Highlight><Highlight color={textColor}>SQL</Highlight><Highlight color={textColor}>AGILE 🏃‍♂️</Highlight><Highlight color={textColor}>Git 🌳</Highlight><Highlight color={textColor}>CI/CD </Highlight><Highlight color={textColor}>Docker</Highlight><Highlight color={textColor}>Figma</Highlight>
 
       <br />
       <br />
-      Currently working at <a href="#" style={{ color: textColor }}><u>Cox Automotive🚗🇬🇧 🇺🇸 </u></a>, where I'm tackling the challenge of revamping a <a style={{ color: textColor }}>vehicle delivery platform</a> and <a style={{ color: textColor }}>leading</a> the frontend project.
+      Currently working at <a href="#" style={{ color: textColor }}><u>Cox Automotive🚗⚡🇬🇧 🇺🇸 </u></a>, where I'm tackling the challenge of revamping a <a style={{ color: textColor }}>vehicle delivery platform</a> and <a style={{ color: textColor }}>leading</a> the frontend project.
       <br />
       <br />
-      I also contributed to a <a style={{ color: textColor }}>Fleet management platform</a> and developped an app from scratch <a href="#" style={{ color: textColor }}><u>Driive Academy👩🏻‍🎓</u></a>, used by thousands of users after release day🌟.
+     Before Cox, I contributed to a <a style={{ color: textColor }}>Fleet management platform</a> and developped an app from scratch <a href="#" style={{ color: textColor }}><u>Driive Academy👩🏻‍🎓</u></a>, used by thousands of users after release day🌟.
       Prior to that, I honed my skills across various sectors, including <a style={{ color: textColor }}>Automotive</a>, <a style={{ color: textColor }}>Healthcare</a> and <a style={{ color: textColor }}>Banking</a> services. ➡️ <a href="#" style={{ color: textColor }}><u>Linkedin</u></a>.
       <br />
       <br />
