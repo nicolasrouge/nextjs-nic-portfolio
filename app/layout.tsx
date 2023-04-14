@@ -56,7 +56,6 @@ export const metadata: Metadata = {
     yandex: '14d2e73487fa6c71',
   },
 };
-
 export default function RootLayout({
   children,
 }: {
@@ -66,7 +65,7 @@ export default function RootLayout({
     <html
       lang="en"
       className={clsx(
-        'text-black bg-white dark:text-white dark:bg-[#141821]',
+        'text-black bg-white dark:text-white dark:bg-[#082032]',
         kaisei.variable
       )}
     >

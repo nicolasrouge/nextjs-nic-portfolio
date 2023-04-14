@@ -6,14 +6,21 @@ export const name = 'Nicolas Rouge';
 export const avatar = me;
 export const travelpic = travel;
 
-const textColor = "rgb(246, 173, 85)";
+//https://colorhunt.co/palettes/dark
+// 082032
+// 2C394B
+// 334756
+// FF4C29
+
+const textColor =  "#FF4C29";
+const skillsColor =  "#334756";
+
 
 export const Highlight = ({ children, color }) => (
   <span
     style={{
       backgroundColor: color,
       borderRadius: "4px",
-      color: "#fff",
       padding: "2px 4px",
       fontSize: "13px",
       marginRight: "2px",
@@ -28,47 +35,45 @@ export const Highlight = ({ children, color }) => (
 export const about = () => {
   return (
     <>
-      Hi there! 👋, I'm a <a style={{ color: textColor }}>Full Stack Developer</a> with <b style={{ color: textColor }}>4+</b> years of experience 🔹 Expert in <a style={{ color: textColor }}>.NET</a> and <a style={{ color: textColor }}>React</a>, Working in <a style={{ color: textColor }}>Cloud</a> environements 🔹 Always excited to explore new tools and technologies, from <a style={{ color: textColor }}>DevOps</a> to <a style={{ color: textColor }}>AI</a>! 🛠️
+      Hi there! 👋, I'm a <a style={{ color: textColor }}>Full Stack Developer</a> with <b style={{ color: textColor }}>4+</b> years of experience, Expert in <a style={{ color: textColor }}>.NET</a> and <a style={{ color: textColor }}>React</a>, Working in <a style={{ color: textColor }}>Cloud</a> environements. Always excited to explore new tools and technologies, from <a style={{ color: textColor }}>DevOps</a> to <a style={{ color: textColor }}>AI</a>! 🛠️
           {/* My goal is to deliver <a style={{ color: textColor }}>efficient</a>, <a style={{ color: textColor }}>secure</a>, and <a style={{ color: textColor }}>agile</a> solutions. */}
 
     </>
   );
 };
 export const bio = () => {
+
   return (
     <>
-      <Highlight color={textColor}><b>Clean Architecture 🧹</b>
-      </Highlight><Highlight color={textColor}><b>Microservices 🔍</b></Highlight>
-      <Highlight color={textColor}>API</Highlight>
-      <Highlight color='grey'>MVC</Highlight>
+      <Highlight color={skillsColor}><b>Clean Architecture 🧹</b>
+      </Highlight><Highlight color={skillsColor}><b>Microservices 🔍</b></Highlight>
+      <Highlight color={skillsColor}>API</Highlight>
+      {/* <Highlight color='grey'>MVC</Highlight> */}
       <br />
-      <Highlight color={textColor}><b>.NET</b></Highlight>
-      <Highlight color={textColor}><b>.NET Core/6/7</b></Highlight>
-      <Highlight color={textColor}><b>C#</b></Highlight>
-      <Highlight color={textColor}>Unit Tests ✅</Highlight>
-      <Highlight color={textColor}>DI </Highlight>
+      <Highlight color={skillsColor}><b>.NET</b></Highlight>
+      <Highlight color={skillsColor}><b>.NET Core/6/7</b></Highlight>
+      <Highlight color={skillsColor}><b>C#</b></Highlight>
+      <Highlight color={skillsColor}>Unit Tests ✅</Highlight>
+      <Highlight color={skillsColor}>DI </Highlight>
       <br />
-      <Highlight color={textColor}><b>ReactJs ⚛️</b></Highlight>
-      <Highlight color={textColor}><b>TypeScript 🦕</b></Highlight>
-      <Highlight color={textColor}>Redux 🔁</Highlight>
-      <Highlight color={textColor}>NextJs</Highlight>
-      <Highlight color={textColor}>Tailwind🎨</Highlight>
-      <Highlight color={textColor}>StyledCpts 💅</Highlight>
-      <Highlight color={textColor}>JavaScript</Highlight>
-      <Highlight color={textColor}>Figma🎨</Highlight>
+      <Highlight color={skillsColor}><b>ReactJs⚛️</b></Highlight>
+      <Highlight color={skillsColor}><b>TypeScript🦕</b></Highlight>
+      <Highlight color={skillsColor}>Redux🔁</Highlight>
+      <Highlight color={skillsColor}>NextJs</Highlight>
+      <Highlight color={skillsColor}>JavaScript</Highlight>
       <br />
-      <Highlight color={textColor}><b>Azure</b></Highlight>
-      <Highlight color={textColor}><b>AWS</b></Highlight>
-      <Highlight color={textColor}>SQL</Highlight>
-      <Highlight color={textColor}>AGILE 🏃‍♂️</Highlight>
-      <Highlight color={textColor}>Git 🌳</Highlight>
-      <Highlight color={textColor}>CI/CD </Highlight>
-      <Highlight color={textColor}>Docker</Highlight>
+      <Highlight color={skillsColor}><b>Azure</b></Highlight>
+      <Highlight color={skillsColor}><b>AWS</b></Highlight>
+      <Highlight color={skillsColor}>SQL</Highlight>
+      <Highlight color={skillsColor}>AGILE</Highlight>
+      <Highlight color={skillsColor}>Git 🌳</Highlight>
+      <Highlight color={skillsColor}>CI/CD </Highlight>
+      <Highlight color={skillsColor}>Docker</Highlight>
       <br />
       <br />
       ➡️ Currently <a style={{ color: textColor }}>leading the transformation</a> of a vehicles delivery platform at <a href="https://www.coxautoinc.com/" style={{ color: textColor }}><u>Cox Automotive🚗🇬🇧 🇺🇸 </u></a>.
       <br />
-      ➡️ Prior to this, I worked on some game-changing Fleet management platform features and created an app <a style={{ color: textColor }}>from scratch</a> which amassed 1000+ users on their debut and have <a style={{ color: textColor }}>consistently thrived</a> since.
+      ➡️ Prior to this, I worked on some game-changing Fleet management platform features and created an app <a style={{ color: textColor }}>from scratch</a> which amassed <a style={{ color: textColor }}>1000+ users on its debut</a> and have <a style={{ color: textColor }}>consistently thrived</a> since.
       <br />
       {/* My extensive experience traverses various industries, */}
       ➡️ Experience in <a style={{ color: textColor }}>Automotive</a>, <a style={{ color: textColor }}>Healthcare</a> and <a style={{ color: textColor }}>Banking</a>.
@@ -79,17 +84,17 @@ export const bio = () => {
       {/* to sharpen my skills and stay engaged with the tech community: */}
       <br />
       <br />
-      🔹<a href="#" style={{ color: textColor }}><b>💻.NET 6+ APIs </b></a>
+      🔹<a href="#"><b>💻.NET 6+ APIs </b></a>
       <br />
-      🔹<a href="#" style={{ color: textColor }}><b>⚛️ React projects</b></a>
+      🔹<a href="#"><b>⚛️ React projects</b></a>
       <br />
-      🔹<a href="https://github.com/dtsmith94/cox-auto-hackathon-2022" style={{ color: textColor }}><u>🤖 Cox <b>Hackathon</b></u></a>
+      🔹<a href="https://github.com/dtsmith94/cox-auto-hackathon-2022"><u>🤖 Cox <b>Hackathon</b></u></a>
       <br />
-      🔹<a href="https://gatsbyitskills.gatsbyjs.io/" style={{ color: textColor }}><u>💹 <b>UK IT job market</b> 👀 </u></a>
+      🔹<a href="https://gatsbyitskills.gatsbyjs.io/"><u>💹 <b>UK IT job market</b> 👀 </u></a>
       <br />
-      🔹<a href="#" style={{ color: textColor }}>☁️ <b>Serverless platforms</b></a>
+      🔹<a href="#">☁️ <b>Serverless platforms</b></a>
       <br />
-      🔹<a href="#" style={{ color: textColor }}>🚀 Technology watch + AI tools APIs.</a>
+      🔹<a href="#">🚀 Technology watch + AI tools APIs.</a>
       <br />
       {/* 🔹<a href="#" style={{ color: textColor }}>🗺️ English Speakers around the world</a> */}
       <br />
