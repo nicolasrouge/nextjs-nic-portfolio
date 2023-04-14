@@ -76,7 +76,7 @@ export const bio = () => {
       ➡️ Prior to this, I worked on some game-changing Fleet management platform features and created an app <a style={{ color: textColor }}>from scratch</a> which amassed <a style={{ color: textColor }}>1000+ users on its debut</a> and have <a style={{ color: textColor }}>consistently thrived</a> since.
       <br />
       {/* My extensive experience traverses various industries, */}
-      ➡️ Experience in <a style={{ color: textColor }}>Automotive</a>, <a style={{ color: textColor }}>Healthcare</a> and <a style={{ color: textColor }}>Banking</a>.
+      ➡️ Experience in <a style={{ color: textColor }}>Automotive</a>, <a style={{ color: textColor }}>Healthcare</a> and <a style={{ color: textColor }}>Banking</a>. Check my Linkedin for more details.
       {/* , positioning me as a <a style={{ color: textColor }}>versatile and innovative</a> professional. */}
       <br />
       <br />
@@ -90,11 +90,7 @@ export const bio = () => {
       <br />
       🔹<a href="https://github.com/dtsmith94/cox-auto-hackathon-2022"><u>🤖 Cox <b>Hackathon</b></u></a>
       <br />
-      🔹<a href="https://gatsbyitskills.gatsbyjs.io/"><u>💹 <b>UK IT job market</b> 👀 </u></a>
-      <br />
       🔹<a href="#">☁️ <b>Serverless platforms</b></a>
-      <br />
-      🔹<a href="#">🚀 Technology watch + AI tools APIs.</a>
       <br />
       {/* 🔹<a href="#" style={{ color: textColor }}>🗺️ English Speakers around the world</a> */}
       <br />

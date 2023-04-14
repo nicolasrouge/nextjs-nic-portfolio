@@ -83,7 +83,10 @@ export default async function HomePage() {
             {/* {`${views.toLocaleString()} blog views all time`} */}
           </Link>
         </div>
-        <Image
+        <p style={{maxWidth:"200px", marginLeft: "20px", color: "#FF4C29"}}>
+        <a href="https://gatsbyitskills.gatsbyjs.io/"><u><b><i>💹Check my graph of UK tech job market 👀</i></b></u></a>
+        </p>
+        {/* <Image
           alt={name}
           className="rounded-full"
           src={rocket}
@@ -91,7 +94,7 @@ export default async function HomePage() {
           width={80}
           priority
           style={{marginLeft: '30px'}}
-        />
+        /> */}
       </div>
       <p className="text-lg leading-6 my-4 mx-2  max-w-[580px] text-neutral-800 dark:text-neutral-200">
         {bio()}
