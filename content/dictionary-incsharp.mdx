@@ -1,0 +1,57 @@
+---
+title: "Dictionaries in C#"
+publishedAt: "2023-04-16"
+summary: "Dictionary."
+image: "/images/aws/sqs.png"
+---
+
+## Dictionaries in C#
+
+Dictionaries in C# are a type of collection that allow you to store key-value pairs. 
+Each value is associated with a unique key, which can be used to quickly retrieve the corresponding value later on.
+
+Under the hood, dictionaries in C# are typically implemented as hash tables, 
+which use a hash function to compute an index into an array where the value is stored. 
+This allows for very fast retrieval of values based on their keys, even for very large collections.
+
+Dictionary is defined under System.Collections.Generic namespace. It is dynamic in nature means the size of the dictionary is grows according to the need. Important Points:
+
+The Dictionary class implements the
+- IDictionary TKey,TValue Interface
+- IReadOnlyCollection KeyValuePair TKey,TValue Interface
+- IReadOnlyDictionary TKey,TValue Interface
+- IDictionary Interface
+- In Dictionary, the key cannot be null, but value can be.
+- In Dictionary, key must be unique. Duplicate keys are not allowed if you try to use duplicate key then compiler will throw an exception.
+- In Dictionary, you can only store same types of elements.
+- The capacity of a Dictionary is the number of elements that Dictionary can hold.
+
+Here's an example of how you could use a dictionary in C#. Let's say you want to store some information about a group of people, such as their names and ages. You could create a dictionary with strings as the keys (for the names) and integers as the values (for the ages), like this:
+  
+```csharp
+Dictionary<string, int> ages = new Dictionary<string, int>();
+ages.Add("Alice", 28);
+ages.Add("Bob", 35);
+ages.Add("Charlie", 42);
+```
+Now you can easily retrieve someone's age based on their name, like this:
+    
+```csharp
+int aliceAge = ages["Alice"]; // aliceAge will be 28
+```
+
+You can also iterate over all the key-value pairs in the dictionary using a foreach loop, like this:
+
+```csharp
+foreach (KeyValuePair<string, int> pair in ages)
+{
+    Console.WriteLine($"{pair.Key} is {pair.Value} years old");
+}
+```
+This will output the following:
+    
+```rust
+Alice's age is 28
+Bob's age is 35
+Charlie's age is 42
+```

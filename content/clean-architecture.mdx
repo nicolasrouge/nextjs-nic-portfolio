@@ -1,35 +1,87 @@
 ---
-title: "clean-architecture"
-publishedAt: "2023-04-13"
-summary: "This is your first blog post."
+title: ".NET Core concept refresher"
+publishedAt: "2023-05-01"
+summary: "This page is a .NET core concept refresher"
 image: "/images/aws/sqs.png"
 ---
 
-Hello, World! 10-days-in-norway
+Following are the topics covered in this page: 
+https://www.hackertrail.com/talent/backend/net-core-interview-questions-answers/
 
-## HI!
+## Advantages of .NET Core
+<Image
+  alt={`Advantages of .NET Core`}
+  src={`/images/netcore/advantages.png`}
+  width={1600}
+  height={840}
+/>
 
-**[AWS DynamoDB:](https://aws.amazon.com/dynamodb/)** Fully managed, serverless, key-value NoSQL database.
+## 2022 Trends in .NET Core
+<Image
+  alt={`Trend dotnet core`}
+  src={`/images/netcore/trends.png`}
+  width={1600}
+  height={840}
+/>
 
-```jsx
-import { createClient } from "@supabase/supabase-js";
-let supabase = createClient("https://<project>.supabase.co", "<your-anon-key>");
-let { data } = await supabase.from("countries").select();
-```
+## Compilation of .NET Core
+<Image
+  alt={`Compilation of .NET Core`}
+  src={`/images/netcore/compilation.png`}
+  width={1600}
+  height={840}
+/>
 
-And for Neon:
-
-```jsx
-import { Client } from "@neondatabase/serverless";
-let client = new Client(env.DATABASE_URL);
-let {
-  rows: [{ now }],
-} = await client.query("select now();");
-```
+## Layers of .NET Core
+<Image
+  alt={`layer1`}
+  src={`/images/netcore/layer1.png`}
+  width={1600}
+  height={840}
+/>
 
 <Image
-  alt={`Neon architecture diagram for connection pooling`}
-  src={`/images/aws/sqs.png`}
+  alt={`layer2`}
+  src={`/images/netcore/layer2.png`}
+  width={1600}
+  height={840}
+/>
+
+<Image
+  alt={`layer3`}
+  src={`/images/netcore/layer3.png`}
+  width={1600}
+  height={840}
+/>
+
+
+## Error Code in API
+<Image
+  alt={`code`}
+  src={`/images/netcore/code.png`}
+  width={1600}
+  height={840}
+/>
+
+## Service Lifecycles
+<Image
+  alt={`serivce lifecycle`}
+  src={`/images/netcore/servicelifecycle.png`}
+  width={1600}
+  height={840}
+/>
+
+## Middlewares
+<Image
+  alt={`middlewares`}
+  src={`/images/netcore/middlewares.png`}
+  width={1600}
+  height={840}
+/>
+## Kestrel
+<Image
+  alt={`kestrel`}
+  src={`/images/netcore/kestrel.png`}
   width={1600}
   height={840}
 />
