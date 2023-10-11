@@ -90,7 +90,7 @@ export const bio = () => {
       <Highlight color={skillsColor}>Docker</Highlight>
       <br />
       <br />
-      ➡️ Currently <a style={{ color: textColor }}>working the transformation</a> of a vehicles delivery platform at <a href="https://www.coxautoinc.com/" style={{ color: textColor }}><u>Cox Automotive🚗🇬🇧 🇺🇸 </u></a>.
+      ➡️ Currently <a style={{ color: textColor }}>leading frontend and contributing to full-stack transformation efforts</a> of a vehicles delivery platform at <a href="https://www.coxautoinc.com/" style={{ color: textColor }}><u>Cox Automotive🚗🇬🇧 🇺🇸 </u></a>.
       <br />
       ➡️ Prior to this, I worked on some game-changing Fleet management platform features and created an 'e-learning' app <a style={{ color: textColor }}>from scratch</a> which amassed <a style={{ color: textColor }}>1000+ users on its debut</a> and have <a style={{ color: textColor }}>consistently thrived</a> since.
       <br />
