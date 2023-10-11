@@ -89,12 +89,24 @@ function ConsCard({ title, cons }) {
   );
 }
 
+export const ImageCredit = ({ sourceLink, sourceName }) => {
+  return (
+    <div>
+      Image Source:{" "}
+      <a href={sourceLink} target="_blank" rel="noopener noreferrer">
+        {sourceName}
+      </a>
+    </div>
+  );
+};
+
 const components = {
   Image: RoundedImage,
   a: CustomLink,
   Callout,
   ProsCard,
   ConsCard,
+  ImageCredit,
 };
 
 interface MdxProps {

@@ -24,7 +24,7 @@ export default function AboutPage() {
           href="mailto:nicolas.rouge777@gmail.com"
           className="text-orange-800 hover:text-orange-600 font-bold transition-colors"
         >
-          nicolas.rouge***@gmail.com
+          nicolas.rouge777@gmail.com
         </a>
       </div>
       

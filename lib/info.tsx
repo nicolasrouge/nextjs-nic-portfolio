@@ -1,10 +1,28 @@
 import me from '../public/images/blue_nick.jpg';
 import travel from '../public/images/snow2.jpg';
-
+import blackpool from '../public/images/blackpool.jpg';
+import lake from '../public/images/lake.jpg';
+import london from '../public/images/london.jpg';
+import manny from '../public/images/manny.jpg';
+import manny2 from '../public/images/manny2.jpg';
+import manny3 from '../public/images/manny3.jpg';
+import mannysky from '../public/images/mannysky.jpg';
+import peak from '../public/images/peak.jpg';
+import roman from '../public/images/roman.jpg';
+import surf from '../public/images/surf.jpg';
 
 export const name = 'Nicolas Rouge';
 export const avatar = me;
 export const travelpic = travel;
+export const blackpoolpic = blackpool;
+export const lakepic = lake;
+export const londonpic = london;
+export const mannypic = manny;
+export const manny2pic = manny2;
+export const mannyskypic = mannysky;
+export const peakpic = peak;
+export const romanpic = roman;
+export const surfpic = surf;
 
 //https://colorhunt.co/palettes/dark
 // 082032
@@ -45,9 +63,10 @@ export const bio = () => {
 
   return (
     <>
-      <Highlight color={skillsColor}><b>Clean Architecture 🧹</b>
-      </Highlight><Highlight color={skillsColor}><b>Microservices 🔍</b></Highlight>
-      <Highlight color={skillsColor}>API</Highlight>
+      <Highlight color={skillsColor}><b>Clean Code 🧹</b>
+      </Highlight><Highlight color={skillsColor}><b>N-Tier 🔍</b></Highlight>
+      <Highlight color={skillsColor}><b>SOLID YAGNI KISS</b></Highlight>
+      <Highlight color={skillsColor}>API REST</Highlight>
       {/* <Highlight color='grey'>MVC</Highlight> */}
       <br />
       <Highlight color={skillsColor}><b>.NET</b></Highlight>
@@ -71,9 +90,9 @@ export const bio = () => {
       <Highlight color={skillsColor}>Docker</Highlight>
       <br />
       <br />
-      ➡️ Currently <a style={{ color: textColor }}>leading the transformation</a> of a vehicles delivery platform at <a href="https://www.coxautoinc.com/" style={{ color: textColor }}><u>Cox Automotive🚗🇬🇧 🇺🇸 </u></a>.
+      ➡️ Currently <a style={{ color: textColor }}>working the transformation</a> of a vehicles delivery platform at <a href="https://www.coxautoinc.com/" style={{ color: textColor }}><u>Cox Automotive🚗🇬🇧 🇺🇸 </u></a>.
       <br />
-      ➡️ Prior to this, I worked on some game-changing Fleet management platform features and created an app <a style={{ color: textColor }}>from scratch</a> which amassed <a style={{ color: textColor }}>1000+ users on its debut</a> and have <a style={{ color: textColor }}>consistently thrived</a> since.
+      ➡️ Prior to this, I worked on some game-changing Fleet management platform features and created an 'e-learning' app <a style={{ color: textColor }}>from scratch</a> which amassed <a style={{ color: textColor }}>1000+ users on its debut</a> and have <a style={{ color: textColor }}>consistently thrived</a> since.
       <br />
       {/* My extensive experience traverses various industries, */}
       ➡️ Experience in <a style={{ color: textColor }}>Automotive</a>, <a style={{ color: textColor }}>Healthcare</a> and <a style={{ color: textColor }}>Banking</a>. Check my Linkedin for more details.
