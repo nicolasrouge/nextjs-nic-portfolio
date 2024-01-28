@@ -55,7 +55,7 @@ export default async function HomePage() {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://www.linkedin.com/in/nicolas-rouge777/"
+            href="https://www.linkedin.com/in/nicolasrougefullstack/"
             className="flex items-center gap-2"
           >
             <Image
@@ -71,7 +71,7 @@ export default async function HomePage() {
           <a
             rel="noopener noreferrer"
             target="_blank"
-            href="https://twitter.com/nick_co_wrld"
+            href="https://twitter.com/NiCodeRed"
             className="flex items-center gap-2"
           >
             <TwitterIcon /> Twitter
@@ -106,7 +106,7 @@ export default async function HomePage() {
         {bio()}
         <br />
         <br />
-        Alpes 🏔️:
+        <h1 className="text-2xl lg:text-2xl font-bold text-gray-800 dark:text-white shadow-lg">Alpes:</h1>
         <Image
           style={{
             borderRadius: '5px',
@@ -119,7 +119,7 @@ export default async function HomePage() {
           priority
         />
 
-London Docks:
+        <h1 className="text-2xl lg:text-2xl font-bold text-gray-800 dark:text-white shadow-lg">London Docks:</h1>
         <Image
           style={{
             borderRadius: '5px',
@@ -131,22 +131,9 @@ London Docks:
           width={400}
           priority
         />
-        Modern Manchester:   
-
+        <h1 className="text-2xl lg:text-2xl font-bold text-gray-800 dark:text-white shadow-lg">
+          Manchester's layers of history:</h1>
         <Image
-          style={{
-            borderRadius: '5px',
-            boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.1)',
-          }}
-          alt={name}
-          src={mannyskypic}
-          placeholder="blur"
-          width={400}
-          priority
-        />
-
-Manchester's layers of history: < br/> (Roman ruins, industrial revolution, modern buildings)
-<Image
           style={{
             borderRadius: '5px',
             boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.1)',
@@ -157,8 +144,10 @@ Manchester's layers of history: < br/> (Roman ruins, industrial revolution, mode
           width={400}
           priority
         />
-Peak District hike (early in the morning):
-<Image
+        <h1 className="text-2xl lg:text-2xl font-bold text-gray-800 dark:text-white shadow-lg">
+          Peak District hike:
+        </h1>
+        <Image
           style={{
             borderRadius: '5px',
             boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.1)',
@@ -169,7 +158,9 @@ Peak District hike (early in the morning):
           width={400}
           priority
         />
-Lake District expedition:
+        <h1 className="text-2xl lg:text-2xl font-bold text-gray-800 dark:text-white shadow-lg">
+          Lake District Expedition:
+          </h1>
         <Image
           style={{
             borderRadius: '5px',

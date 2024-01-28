@@ -30,17 +30,18 @@ export const surfpic = surf;
 // 334756
 // FF4C29
 
-const textColor =  "#FF4C29";
-const skillsColor =  "#334756";
+const textColor = "#FF4C29";
+const skillsColor = "#334756";
 
 
 export const Highlight = ({ children, color }) => (
   <span
     style={{
+      color: "lightgrey",
       backgroundColor: color,
       borderRadius: "4px",
       padding: "2px 4px",
-      fontSize: "13px",
+      fontSize: "14px",
       marginRight: "2px",
       cursor: "pointer",
     }}
@@ -53,8 +54,8 @@ export const Highlight = ({ children, color }) => (
 export const about = () => {
   return (
     <>
-      Hi there! 👋, I'm a <a style={{ color: textColor }}>Full Stack Developer</a> with <b style={{ color: textColor }}>4+</b> years of experience, Expert in <a style={{ color: textColor }}>.NET</a> and <a style={{ color: textColor }}>React</a>, Working in <a style={{ color: textColor }}>Cloud</a> environements. Always excited to explore new tools and technologies, from <a style={{ color: textColor }}>DevOps</a> to <a style={{ color: textColor }}>AI</a>! 🛠️
-          {/* My goal is to deliver <a style={{ color: textColor }}>efficient</a>, <a style={{ color: textColor }}>secure</a>, and <a style={{ color: textColor }}>agile</a> solutions. */}
+      Hi there! 👋, I'm a <a style={{ color: textColor }}>Full Stack Developer</a> with <b style={{ color: textColor }}>5</b> years of experience, Expert in <a style={{ color: textColor }}>.NET</a> and <a style={{ color: textColor }}>React</a>, Working in <a style={{ color: textColor }}>Cloud</a> environements. Always excited to explore new tools and technologies, from <a style={{ color: textColor }}>DevOps</a> to <a style={{ color: textColor }}>AI</a>! 🛠️
+      {/* My goal is to deliver <a style={{ color: textColor }}>efficient</a>, <a style={{ color: textColor }}>secure</a>, and <a style={{ color: textColor }}>agile</a> solutions. */}
 
     </>
   );
@@ -63,30 +64,34 @@ export const bio = () => {
 
   return (
     <>
-      <Highlight color={skillsColor}><b>Clean Code 🧹</b>
-      </Highlight><Highlight color={skillsColor}><b>N-Tier 🔍</b></Highlight>
-      <Highlight color={skillsColor}><b>SOLID YAGNI KISS</b></Highlight>
-      <Highlight color={skillsColor}>API REST</Highlight>
-      {/* <Highlight color='grey'>MVC</Highlight> */}
+      <Highlight color={skillsColor}><b>Clean Code 🧹</b></Highlight>
+      <Highlight color={skillsColor}><b>SOLID</b></Highlight>
+      <Highlight color={skillsColor}><b>Design patterns</b></Highlight>
+      <Highlight color={skillsColor}><b>API REST</b></Highlight>
+
+      <br />
+      <Highlight color={skillsColor}><b>TDD</b></Highlight>
+      <Highlight color={skillsColor}>Unit Tests ✅</Highlight>
+      <Highlight color={skillsColor}><b>N-Tier Architecture</b></Highlight>
+      <Highlight color={skillsColor}><b>Hexagonal Architecture</b></Highlight>
+
       <br />
       <Highlight color={skillsColor}><b>.NET</b></Highlight>
-      <Highlight color={skillsColor}><b>.NET Core/6/7</b></Highlight>
+      <Highlight color={skillsColor}><b>.NET Core/6/7/8</b></Highlight>
       <Highlight color={skillsColor}><b>C#</b></Highlight>
-      <Highlight color={skillsColor}>Unit Tests ✅</Highlight>
-      <Highlight color={skillsColor}>DI </Highlight>
       <br />
       <Highlight color={skillsColor}><b>ReactJs⚛️</b></Highlight>
       <Highlight color={skillsColor}><b>TypeScript🦕</b></Highlight>
-      <Highlight color={skillsColor}>Redux🔁</Highlight>
-      <Highlight color={skillsColor}>NextJs</Highlight>
-      <Highlight color={skillsColor}>JavaScript</Highlight>
+      <Highlight color={skillsColor}><b>Redux🔁</b></Highlight>
+      <Highlight color={skillsColor}><b>NextJs</b></Highlight>
+      <Highlight color={skillsColor}><b>JavaScript</b></Highlight>
       <br />
       <Highlight color={skillsColor}><b>Azure</b></Highlight>
-      <Highlight color={skillsColor}><b>AWS</b></Highlight>
-      <Highlight color={skillsColor}>SQL</Highlight>
-      <Highlight color={skillsColor}>AGILE</Highlight>
-      <Highlight color={skillsColor}>Git 🌳</Highlight>
-      <Highlight color={skillsColor}>CI/CD </Highlight>
+      <Highlight color={skillsColor}>AWS</Highlight>
+      <Highlight color={skillsColor}><b>SQL</b></Highlight>
+      <Highlight color={skillsColor}><b>AGILE</b></Highlight>
+      <Highlight color={skillsColor}><b>Git🌳</b></Highlight>
+      <Highlight color={skillsColor}><b>CI/CD</b></Highlight>
       <Highlight color={skillsColor}>Docker</Highlight>
       <br />
       <br />
@@ -105,7 +110,7 @@ export const bio = () => {
       <br />
       🔹<a href="#"><b>💻.NET 6+ APIs </b></a>
       <br />
-      🔹<a href="#"><b>⚛️ React projects</b></a>
+      🔹<a href="#"><b>⚛️ React and NextJs projects</b></a>
       <br />
       🔹<a href="https://github.com/dtsmith94/cox-auto-hackathon-2022"><u>🤖 Cox <b>Hackathon</b></u></a>
       <br />
@@ -114,7 +119,7 @@ export const bio = () => {
       {/* 🔹<a href="#" style={{ color: textColor }}>🗺️ English Speakers around the world</a> */}
       <br />
       <br />
-      When I'm not coding, I enjoy discovering new experiences and destinations. 
+      When I'm not coding, I enjoy discovering new experiences and destinations.
       Recently, I went skiing for the first time and it was an incredible adventure! 🗻🚠⛷️
     </>
   );
