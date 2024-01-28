@@ -64,35 +64,40 @@ export const bio = () => {
 
   return (
     <>
+      <div className="flex-wrap gap-2">
       <Highlight color={skillsColor}><b>Clean Code 🧹</b></Highlight>
       <Highlight color={skillsColor}><b>SOLID</b></Highlight>
       <Highlight color={skillsColor}><b>Design patterns</b></Highlight>
-      <Highlight color={skillsColor}><b>API REST</b></Highlight>
 
       <br />
       <Highlight color={skillsColor}><b>TDD</b></Highlight>
-      <Highlight color={skillsColor}>Unit Tests ✅</Highlight>
-      <Highlight color={skillsColor}><b>N-Tier Architecture</b></Highlight>
+      <Highlight color={skillsColor}><b>Unit Tests</b></Highlight>
+      <br />
+      <Highlight color={skillsColor}><b>N-Tier</b></Highlight>
       <Highlight color={skillsColor}><b>Hexagonal Architecture</b></Highlight>
 
       <br />
+      <Highlight color={skillsColor}><b>API REST</b></Highlight>
       <Highlight color={skillsColor}><b>.NET</b></Highlight>
-      <Highlight color={skillsColor}><b>.NET Core/6/7/8</b></Highlight>
+      <Highlight color={skillsColor}><b>.NET Core/6+</b></Highlight>
       <Highlight color={skillsColor}><b>C#</b></Highlight>
       <br />
-      <Highlight color={skillsColor}><b>ReactJs⚛️</b></Highlight>
-      <Highlight color={skillsColor}><b>TypeScript🦕</b></Highlight>
-      <Highlight color={skillsColor}><b>Redux🔁</b></Highlight>
+      <Highlight color={skillsColor}><b>ReactJs</b></Highlight>
       <Highlight color={skillsColor}><b>NextJs</b></Highlight>
+      <Highlight color={skillsColor}><b>Redux</b></Highlight>
+
+      <br />
+      <Highlight color={skillsColor}><b>TypeScript🦕</b></Highlight>
       <Highlight color={skillsColor}><b>JavaScript</b></Highlight>
       <br />
       <Highlight color={skillsColor}><b>Azure</b></Highlight>
       <Highlight color={skillsColor}>AWS</Highlight>
       <Highlight color={skillsColor}><b>SQL</b></Highlight>
       <Highlight color={skillsColor}><b>AGILE</b></Highlight>
-      <Highlight color={skillsColor}><b>Git🌳</b></Highlight>
+      <Highlight color={skillsColor}><b>Git</b></Highlight>
       <Highlight color={skillsColor}><b>CI/CD</b></Highlight>
       <Highlight color={skillsColor}>Docker</Highlight>
+      </div>
       <br />
       <br />
       ➡️ Currently working on the transformation of a vehicles delivery platform at <a href="https://www.coxautoinc.com/" style={{ color: textColor }}><u>Cox Automotive UK & Europe</u></a>.
