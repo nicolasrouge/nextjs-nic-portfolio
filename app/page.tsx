@@ -20,7 +20,6 @@ import {
 } from 'lib/info';
 import linkedin from '../public/images/linkedin.png';
 
-
 export const revalidate = 60;
 
 export default async function HomePage() {
@@ -36,10 +35,18 @@ export default async function HomePage() {
     console.error(error);
   }
 
+  const images = [
+    { title: 'Skiing in Alpes, France', src: travelpic },
+    { title: 'London Docks, UK', src: londonpic },
+    { title: "Manchester's History, UK", src: romanpic },
+    { title: 'Hiking in the Peak District, UK', src: peakpic },
+    { title: 'Exploring the Lake District, UK', src: lakepic },
+  ];
+
   return (
     <section>
       <h1 className="font-bold text-3xl font-serif">{name}</h1>
-      <p className="text-lg leading-6 my-4 mx-2  max-w-[460px] text-neutral-800 dark:text-neutral-200">
+      <p className="text-lg leading-6 my-4 mx-2 max-w-[460px] text-neutral-800 dark:text-neutral-200">
         {about()}
       </p>
       <div className="flex items-center my-8 flex-row">
@@ -49,6 +56,7 @@ export default async function HomePage() {
           src={avatar}
           placeholder="blur"
           width={100}
+          height={100}
           priority
         />
         <div className="mt-0 ml-6 space-y-2 text-neutral-500 dark:text-neutral-400">
@@ -64,6 +72,7 @@ export default async function HomePage() {
               src={linkedin}
               placeholder="blur"
               width={22}
+              height={22}
               priority
             />
             Linkedin
@@ -75,7 +84,6 @@ export default async function HomePage() {
             className="flex items-center gap-2"
           >
             <TwitterIcon /> Twitter
-            {/* {`${tweetCount} tweets all time`} */}
           </a>
           <a
             rel="noopener noreferrer"
@@ -85,94 +93,35 @@ export default async function HomePage() {
           >
             <GitHubIcon />
             GitHub
-            {/* {`${starCount.toLocaleString()} stars on this repo`} */}
           </a>
-          {/* <Link href="/blog" className="flex items-center">  <ViewsIcon /> Blog  {`${views.toLocaleString()} blog views all time`} </Link> */}
         </div>
-        <p style={{ maxWidth: "200px", marginLeft: "20px", color: "#FF4C29" }}>
-          {/* <a href="https://gatsbyitskills.gatsbyjs.io/"><u><b><i>💹Check my graph of UK tech job market 👀</i></b></u></a> */}
-        </p>
-        {/* <Image
-          alt={name}
-          className="rounded-full"
-          src={rocket}
-          placeholder="blur"
-          width={80}
-          priority
-          style={{marginLeft: '30px'}}
-        /> */}
       </div>
-      <p className="text-lg leading-6 my-4 mx-2  max-w-[580px] text-neutral-800 dark:text-neutral-200">
+      <p className="text-lg leading-6 my-4 mx-2 max-w-[580px] text-neutral-800 dark:text-neutral-200">
         {bio()}
-        <br />
-        <br />
-        <h1 className="text-2xl lg:text-2xl font-bold text-gray-800 dark:text-white shadow-lg">Alpes:</h1>
-        <Image
-          style={{
-            borderRadius: '5px',
-            boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.1)',
-          }}
-          alt={name}
-          src={travelpic}
-          placeholder="blur"
-          width={400}
-          priority
-        />
-
-        <h1 className="text-2xl lg:text-2xl font-bold text-gray-800 dark:text-white shadow-lg">London Docks:</h1>
-        <Image
-          style={{
-            borderRadius: '5px',
-            boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.1)',
-          }}
-          alt={name}
-          src={londonpic}
-          placeholder="blur"
-          width={400}
-          priority
-        />
-        <h1 className="text-2xl lg:text-2xl font-bold text-gray-800 dark:text-white shadow-lg">
-          Manchester's layers of history:</h1>
-        <Image
-          style={{
-            borderRadius: '5px',
-            boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.1)',
-          }}
-          alt={name}
-          src={romanpic}
-          placeholder="blur"
-          width={400}
-          priority
-        />
-        <h1 className="text-2xl lg:text-2xl font-bold text-gray-800 dark:text-white shadow-lg">
-          Peak District hike:
-        </h1>
-        <Image
-          style={{
-            borderRadius: '5px',
-            boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.1)',
-          }}
-          alt={name}
-          src={peakpic}
-          placeholder="blur"
-          width={400}
-          priority
-        />
-        <h1 className="text-2xl lg:text-2xl font-bold text-gray-800 dark:text-white shadow-lg">
-          Lake District Expedition:
-          </h1>
-        <Image
-          style={{
-            borderRadius: '5px',
-            boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.1)',
-          }}
-          alt={name}
-          src={lakepic}
-          placeholder="blur"
-          width={400}
-          priority
-        />
       </p>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {images.map((image) => (
+          <div key={image.title}>
+            <h2 className="text-2xl lg:text-2xl font-bold text-gray-800 dark:text-white shadow-lg">
+              {image.title}
+            </h2>
+            <div className="relative w-full h-64">
+              <Image
+                style={{
+                  borderRadius: '5px',
+                  boxShadow: '0px 0px 10px rgba(0, 0, 0, 0.1)',
+                }}
+                alt={image.title}
+                src={image.src}
+                placeholder="blur"
+                layout="fill"
+                objectFit="cover"
+                className="rounded-lg"
+              />
+            </div>
+          </div>
+        ))}
+      </div>
       <ul className="flex flex-col md:flex-row mt-8 space-x-0 md:space-x-4 space-y-2 md:space-y-0 font-sm text-neutral-500 dark:text-neutral-400">
         <li>
           <a
@@ -182,20 +131,9 @@ export default async function HomePage() {
             href="https://twitter.com/Nick_Co_Wrld"
           >
             <ArrowIcon />
-            <p className="h-7">follow me on twitter</p>
+            <p className="h-7">Follow me on Twitter</p>
           </a>
         </li>
-        {/* <li>
-          <a
-            className="flex items-center hover:text-neutral-700 dark:hover:text-neutral-200 transition-all"
-            rel="noopener noreferrer"
-            target="_blank"
-            href="https://leerob.substack.com"
-          >
-            <ArrowIcon />
-            <p className="h-7">get email updates</p>
-          </a>
-        </li> */}
       </ul>
     </section>
   );
