@@ -96,7 +96,6 @@ export const bio = () => {
       <Highlight color={skillsColor}><b>AGILE</b></Highlight>
       <Highlight color={skillsColor}><b>Git</b></Highlight>
       <Highlight color={skillsColor}><b>CI/CD</b></Highlight>
-      <Highlight color={skillsColor}>Docker</Highlight>
       </div>
       <br />
       <br />
@@ -109,17 +108,17 @@ export const bio = () => {
       {/* , positioning me as a <a style={{ color: textColor }}>versatile and innovative</a> professional. */}
       <br />
       <br />
-      In my spare time, I love working on mini projects:
+      In summary:
       {/* to sharpen my skills and stay engaged with the tech community: */}
       <br />
       <br />
-      🔹<a href="#"><b>💻.NET 6+ APIs </b></a>
+      🔹<a href="#"><b>💻.NET Ecosystem</b></a>
       <br />
-      🔹<a href="#"><b>⚛️ React and NextJs projects</b></a>
+      🔹<a href="#"><b>⚛️ React and NextJs Projects</b></a>
+      <br />
+      🔹<a href="#">☁️ <b>Azure Cloud Services</b></a>
       <br />
       🔹<a href="https://github.com/dtsmith94/cox-auto-hackathon-2022"><u>🤖 Cox <b>Hackathon</b></u></a>
-      <br />
-      🔹<a href="#">☁️ <b>Serverless platforms</b></a>
       <br />
       {/* 🔹<a href="#" style={{ color: textColor }}>🗺️ English Speakers around the world</a> */}
       <br />
